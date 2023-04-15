@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7034FC0F29EA9D9000BF5B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034FC0E29EA9D9000BF5B68 /* AppDelegate.swift */; };
+		7034FC1129EA9D9000BF5B68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034FC1029EA9D9000BF5B68 /* SceneDelegate.swift */; };
+		7034FC1329EA9D9000BF5B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034FC1229EA9D9000BF5B68 /* ViewController.swift */; };
+		7034FC1629EA9D9000BF5B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7034FC1429EA9D9000BF5B68 /* Main.storyboard */; };
+		7034FC1829EA9D9300BF5B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7034FC1729EA9D9300BF5B68 /* Assets.xcassets */; };
+		7034FC1B29EA9D9300BF5B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7034FC1929EA9D9300BF5B68 /* LaunchScreen.storyboard */; };
+		7034FC2629EA9D9400BF5B68 /* eGovDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034FC2529EA9D9400BF5B68 /* eGovDeliveryTests.swift */; };
+		7034FC3029EA9D9400BF5B68 /* eGovDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034FC2F29EA9D9400BF5B68 /* eGovDeliveryUITests.swift */; };
+		7034FC3229EA9D9400BF5B68 /* eGovDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034FC3129EA9D9400BF5B68 /* eGovDeliveryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7034FC2229EA9D9400BF5B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7034FC0329EA9D9000BF5B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7034FC0A29EA9D9000BF5B68;
+			remoteInfo = eGovDelivery;
+		};
+		7034FC2C29EA9D9400BF5B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7034FC0329EA9D9000BF5B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7034FC0A29EA9D9000BF5B68;
+			remoteInfo = eGovDelivery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7034FC0B29EA9D9000BF5B68 /* eGovDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eGovDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7034FC0E29EA9D9000BF5B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7034FC1029EA9D9000BF5B68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7034FC1229EA9D9000BF5B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7034FC1529EA9D9000BF5B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7034FC1729EA9D9300BF5B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7034FC1A29EA9D9300BF5B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7034FC1C29EA9D9300BF5B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7034FC2129EA9D9400BF5B68 /* eGovDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eGovDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7034FC2529EA9D9400BF5B68 /* eGovDeliveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eGovDeliveryTests.swift; sourceTree = "<group>"; };
+		7034FC2B29EA9D9400BF5B68 /* eGovDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eGovDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7034FC2F29EA9D9400BF5B68 /* eGovDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eGovDeliveryUITests.swift; sourceTree = "<group>"; };
+		7034FC3129EA9D9400BF5B68 /* eGovDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eGovDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7034FC0829EA9D9000BF5B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7034FC1E29EA9D9400BF5B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7034FC2829EA9D9400BF5B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7034FC0229EA9D9000BF5B68 = {
+			isa = PBXGroup;
+			children = (
+				7034FC0D29EA9D9000BF5B68 /* eGovDelivery */,
+				7034FC2429EA9D9400BF5B68 /* eGovDeliveryTests */,
+				7034FC2E29EA9D9400BF5B68 /* eGovDeliveryUITests */,
+				7034FC0C29EA9D9000BF5B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7034FC0C29EA9D9000BF5B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7034FC0B29EA9D9000BF5B68 /* eGovDelivery.app */,
+				7034FC2129EA9D9400BF5B68 /* eGovDeliveryTests.xctest */,
+				7034FC2B29EA9D9400BF5B68 /* eGovDeliveryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7034FC0D29EA9D9000BF5B68 /* eGovDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				7034FC0E29EA9D9000BF5B68 /* AppDelegate.swift */,
+				7034FC1029EA9D9000BF5B68 /* SceneDelegate.swift */,
+				7034FC1229EA9D9000BF5B68 /* ViewController.swift */,
+				7034FC1429EA9D9000BF5B68 /* Main.storyboard */,
+				7034FC1729EA9D9300BF5B68 /* Assets.xcassets */,
+				7034FC1929EA9D9300BF5B68 /* LaunchScreen.storyboard */,
+				7034FC1C29EA9D9300BF5B68 /* Info.plist */,
+			);
+			path = eGovDelivery;
+			sourceTree = "<group>";
+		};
+		7034FC2429EA9D9400BF5B68 /* eGovDeliveryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7034FC2529EA9D9400BF5B68 /* eGovDeliveryTests.swift */,
+			);
+			path = eGovDeliveryTests;
+			sourceTree = "<group>";
+		};
+		7034FC2E29EA9D9400BF5B68 /* eGovDeliveryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7034FC2F29EA9D9400BF5B68 /* eGovDeliveryUITests.swift */,
+				7034FC3129EA9D9400BF5B68 /* eGovDeliveryUITestsLaunchTests.swift */,
+			);
+			path = eGovDeliveryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7034FC0A29EA9D9000BF5B68 /* eGovDelivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7034FC3529EA9D9400BF5B68 /* Build configuration list for PBXNativeTarget "eGovDelivery" */;
+			buildPhases = (
+				7034FC0729EA9D9000BF5B68 /* Sources */,
+				7034FC0829EA9D9000BF5B68 /* Frameworks */,
+				7034FC0929EA9D9000BF5B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eGovDelivery;
+			productName = eGovDelivery;
+			productReference = 7034FC0B29EA9D9000BF5B68 /* eGovDelivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7034FC2029EA9D9400BF5B68 /* eGovDeliveryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7034FC3829EA9D9400BF5B68 /* Build configuration list for PBXNativeTarget "eGovDeliveryTests" */;
+			buildPhases = (
+				7034FC1D29EA9D9400BF5B68 /* Sources */,
+				7034FC1E29EA9D9400BF5B68 /* Frameworks */,
+				7034FC1F29EA9D9400BF5B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7034FC2329EA9D9400BF5B68 /* PBXTargetDependency */,
+			);
+			name = eGovDeliveryTests;
+			productName = eGovDeliveryTests;
+			productReference = 7034FC2129EA9D9400BF5B68 /* eGovDeliveryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7034FC2A29EA9D9400BF5B68 /* eGovDeliveryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7034FC3B29EA9D9400BF5B68 /* Build configuration list for PBXNativeTarget "eGovDeliveryUITests" */;
+			buildPhases = (
+				7034FC2729EA9D9400BF5B68 /* Sources */,
+				7034FC2829EA9D9400BF5B68 /* Frameworks */,
+				7034FC2929EA9D9400BF5B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7034FC2D29EA9D9400BF5B68 /* PBXTargetDependency */,
+			);
+			name = eGovDeliveryUITests;
+			productName = eGovDeliveryUITests;
+			productReference = 7034FC2B29EA9D9400BF5B68 /* eGovDeliveryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7034FC0329EA9D9000BF5B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7034FC0A29EA9D9000BF5B68 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7034FC2029EA9D9400BF5B68 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7034FC0A29EA9D9000BF5B68;
+					};
+					7034FC2A29EA9D9400BF5B68 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7034FC0A29EA9D9000BF5B68;
+					};
+				};
+			};
+			buildConfigurationList = 7034FC0629EA9D9000BF5B68 /* Build configuration list for PBXProject "eGovDelivery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7034FC0229EA9D9000BF5B68;
+			productRefGroup = 7034FC0C29EA9D9000BF5B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7034FC0A29EA9D9000BF5B68 /* eGovDelivery */,
+				7034FC2029EA9D9400BF5B68 /* eGovDeliveryTests */,
+				7034FC2A29EA9D9400BF5B68 /* eGovDeliveryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7034FC0929EA9D9000BF5B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7034FC1B29EA9D9300BF5B68 /* LaunchScreen.storyboard in Resources */,
+				7034FC1829EA9D9300BF5B68 /* Assets.xcassets in Resources */,
+				7034FC1629EA9D9000BF5B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7034FC1F29EA9D9400BF5B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7034FC2929EA9D9400BF5B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7034FC0729EA9D9000BF5B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7034FC1329EA9D9000BF5B68 /* ViewController.swift in Sources */,
+				7034FC0F29EA9D9000BF5B68 /* AppDelegate.swift in Sources */,
+				7034FC1129EA9D9000BF5B68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7034FC1D29EA9D9400BF5B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7034FC2629EA9D9400BF5B68 /* eGovDeliveryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7034FC2729EA9D9400BF5B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7034FC3029EA9D9400BF5B68 /* eGovDeliveryUITests.swift in Sources */,
+				7034FC3229EA9D9400BF5B68 /* eGovDeliveryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7034FC2329EA9D9400BF5B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7034FC0A29EA9D9000BF5B68 /* eGovDelivery */;
+			targetProxy = 7034FC2229EA9D9400BF5B68 /* PBXContainerItemProxy */;
+		};
+		7034FC2D29EA9D9400BF5B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7034FC0A29EA9D9000BF5B68 /* eGovDelivery */;
+			targetProxy = 7034FC2C29EA9D9400BF5B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7034FC1429EA9D9000BF5B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7034FC1529EA9D9000BF5B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7034FC1929EA9D9300BF5B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7034FC1A29EA9D9300BF5B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7034FC3329EA9D9400BF5B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7034FC3429EA9D9400BF5B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7034FC3629EA9D9400BF5B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eGovDelivery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eisenchamp.eGovDelivery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7034FC3729EA9D9400BF5B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eGovDelivery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eisenchamp.eGovDelivery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7034FC3929EA9D9400BF5B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eisenchamp.eGovDeliveryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eGovDelivery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eGovDelivery";
+			};
+			name = Debug;
+		};
+		7034FC3A29EA9D9400BF5B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eisenchamp.eGovDeliveryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eGovDelivery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eGovDelivery";
+			};
+			name = Release;
+		};
+		7034FC3C29EA9D9400BF5B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eisenchamp.eGovDeliveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eGovDelivery;
+			};
+			name = Debug;
+		};
+		7034FC3D29EA9D9400BF5B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eisenchamp.eGovDeliveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eGovDelivery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7034FC0629EA9D9000BF5B68 /* Build configuration list for PBXProject "eGovDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7034FC3329EA9D9400BF5B68 /* Debug */,
+				7034FC3429EA9D9400BF5B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7034FC3529EA9D9400BF5B68 /* Build configuration list for PBXNativeTarget "eGovDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7034FC3629EA9D9400BF5B68 /* Debug */,
+				7034FC3729EA9D9400BF5B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7034FC3829EA9D9400BF5B68 /* Build configuration list for PBXNativeTarget "eGovDeliveryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7034FC3929EA9D9400BF5B68 /* Debug */,
+				7034FC3A29EA9D9400BF5B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7034FC3B29EA9D9400BF5B68 /* Build configuration list for PBXNativeTarget "eGovDeliveryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7034FC3C29EA9D9400BF5B68 /* Debug */,
+				7034FC3D29EA9D9400BF5B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7034FC0329EA9D9000BF5B68 /* Project object */;
+}
